@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    width: 100%;
+    background-color:#30354a;
+    padding: 20px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: aliceblue;
+}
+ .menu-bar{
+    margin-right: 120px;
+
+}
+.banner-section{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+  
+}
+.banner-section .left-section{
+    justify-content: center;
+    margin: auto;
+}
+.banner-section .right-section{
+ justify-content: center;
+ margin: auto;   
+}
+.goal-section{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    display: flex;
+}
+.goal-section .container{
+    display: flex;
+    
+    justify-content: space-between;
+    padding-left: 110px;
+
+}
+.goal-section .container img{
+    align-items: center;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.goal-section .container div{
+        padding-top: 0px;
+         align-items: center;
+        padding-left: 12px;
+    
+    
+}
+.product-section{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    margin-top: 100px;
+}
+.product-section .left-section{
+    justify-content: center;
+    margin: auto;
+
+}
+.product-section .right-section{
+ justify-content: center;
+ margin: auto;
+ display: flex;   
+}
+.content-section{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+}
+.content-section .header{
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    display: flex;
+
+}
+.content-section .para{
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.product-images{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+}
+.forsonic-section{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    border: 5px solid white;
+    background-color: aliceblue;
+    flex-direction: row;
+}
+.forsonic-section .logo{
+height: 200px;
+flex-direction: column;
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.forsonic-section .images{
+    height: 200px;
+    flex-direction: column;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.forsonic-section .images{
+    height: 200px;
+    width: 50%;
+}
+.artis-section{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    border: 5px solid aliceblue; 
+    background-color: aliceblue;
+}
+.artis-section .images{
+    height: 200px;
+    flex-direction: column;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.artis-section .logo{
+    height: 200px;
+    flex-direction: column;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-us-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+}
+.contact-us-section .left-section{
+    display: flex;
+    width: 55%;
+    height: 100%;
+    justify-content: center;
+}
+.contact-us-section .right-section{
+    display: flex;
+    width: 45%;
+    height: 100%;
+   flex-direction: column;
+
+}
+.contact-us-section .input{
+    height: 40px;
+    width: 550px;
+    margin-top: 25px;
+    
+}
+.contact-us-section button{
+    width: 550px; 
+    height: 30px; 
+    margin-top: 40px;
+    background: linear-gradient(116deg, #00b7f2 0%, #002581 100%);
+}
+footer .container{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    background-color: #30354a;
+}
+footer .left-section{
+    width: 50%;
+    height: 100%;
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+}
+.footer .left-section .logo{
+   height: 120px;
+   justify-content: center;
+}
+.right-section{
+    height: 100%;
+    width: 50%;
+    display: flex;
+ 
+}
+.row1{
+    color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row2{
+    color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row3{
+    flex: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
